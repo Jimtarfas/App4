@@ -1,0 +1,54 @@
+{
+  "identifier" : "C0A1F2B3-4D5E-4F60-8172-9384A5B6C7D8",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationInternalID" : "",
+    "_developerTeamID" : "ZUCC9R4PP4",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21500001",
+      "localizations" : [],
+      "name" : "Coin Values Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "21500002",
+          "introductoryOffer" : { "internalID" : "21500004", "paymentMode" : "free", "subscriptionPeriod" : "P3D" },
+          "localizations" : [ { "description" : "Unlimited coin scans and value estimates", "displayName" : "Coin Values Pro Yearly", "locale" : "en_US" } ],
+          "productID" : "com.coinvalues.identifier.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Coin Values Pro Yearly",
+          "subscriptionGroupID" : "21500001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : []
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "21500003",
+          "localizations" : [ { "description" : "Unlimited coin scans and value estimates", "displayName" : "Coin Values Pro Weekly", "locale" : "en_US" } ],
+          "productID" : "com.coinvalues.identifier.weekly",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Coin Values Pro Weekly",
+          "subscriptionGroupID" : "21500001",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : []
+        }
+      ]
+    }
+  ],
+  "version" : { "major" : 4, "minor" : 0 }
+}

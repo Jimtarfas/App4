@@ -1,0 +1,2 @@
+// Release builds never carry the debug bypass token.
+DEV_BYPASS_TOKEN =

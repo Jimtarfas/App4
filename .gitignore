@@ -1,0 +1,12 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.ipa
+*.xcarchive
+*.p8
+.env*
+Config/Secrets.xcconfig
+server/node_modules/
+server/.vercel/

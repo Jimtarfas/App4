@@ -1,0 +1,205 @@
+[
+  {
+    "front": "quarter_o.jpg",
+    "back": "quarter_r.jpg",
+    "inCollection": false,
+    "hoursAgo": 0.3,
+    "result": {
+      "is_coin": true,
+      "name": "1944-S Washington Quarter",
+      "country": "United States",
+      "denomination": "Quarter Dollar (25¢)",
+      "year": "1944",
+      "mint_mark": "S (San Francisco)",
+      "series": "Washington Quarter (1932–1998)",
+      "composition": "90% silver, 10% copper",
+      "rarity": "common",
+      "condition_estimate": "Mint State (approx. MS-64 to MS-65)",
+      "value_low_usd": 22,
+      "value_high_usd": 45,
+      "confidence": "high",
+      "description": "The Washington quarter was introduced in 1932 to mark the 200th anniversary of George Washington's birth and became a regular series. Wartime quarters like this 1944-S were struck in 90% silver and produced in large numbers. This example shows bright, frosty luster with relatively few marks, suggesting an uncirculated coin.",
+      "notable_features": [
+        "Small S mint mark on the reverse below the wreath, confirming San Francisco",
+        "Bright, frosty surfaces typical of uncirculated silver",
+        "Check for light bagmarks on the cheek and jaw that could affect the exact grade",
+        "Sharpness of the eagle's breast feathers and the head curls matters for premium grades"
+      ],
+      "value_notes": "Circulated 1944-S quarters trade near silver melt value (a few dollars), while uncirculated examples carry a premium that rises with grade and luster quality. Professional grading could push a fully struck MS-65 toward the upper end or above this range."
+    }
+  },
+  {
+    "front": "morgan_o.jpg",
+    "back": "morgan_r.jpg",
+    "inCollection": true,
+    "hoursAgo": 20,
+    "result": {
+      "is_coin": true,
+      "name": "1879-S Morgan Silver Dollar",
+      "country": "United States",
+      "denomination": "Dollar ($1)",
+      "year": "1879",
+      "mint_mark": "S (San Francisco)",
+      "series": "Morgan Dollar (1878–1904, 1921)",
+      "composition": "90% silver, 10% copper",
+      "rarity": "common",
+      "condition_estimate": "Mint State (approx. MS-64 to MS-65), brilliant with light toning",
+      "value_low_usd": 130,
+      "value_high_usd": 320,
+      "confidence": "high",
+      "description": "The Morgan dollar was designed by George T. Morgan and struck from 1878, largely because of the Bland-Allison Act, which required the Treasury to buy silver. The 1879-S is one of the most available dates in Mint State because millions were struck at San Francisco and many were stored in bags and later released. This example shows bright, frosty luster and a sharp strike, and appears to be in a third-party grading holder.",
+      "notable_features": [
+        "Mint mark 'S' sits on the reverse below the wreath bow, above the 'O' in DOLLAR",
+        "Check for the reverse type: 1879 San Francisco coins have the Reverse of 1878-style eagle with a rounded breast, as shown here",
+        "Look at the cheek and Liberty's face for contact marks, which strongly affect the grade",
+        "Check for Prooflike or Deep Mirror Prooflike surfaces, which bring a premium"
+      ],
+      "value_notes": "Value depends mostly on grade and luster: roughly $60-$80 in circulated condition, but gem MS-65 examples can bring several hundred dollars. A certified coin in a holder from a major service typically sells at the higher end of its grade range."
+    }
+  },
+  {
+    "front": "slq_o.jpg",
+    "back": "slq_r.jpg",
+    "inCollection": true,
+    "hoursAgo": 28,
+    "result": {
+      "is_coin": true,
+      "name": "1917-S Type 1 Standing Liberty Quarter",
+      "country": "United States",
+      "denomination": "Quarter Dollar (25¢)",
+      "year": "1917",
+      "mint_mark": "S (San Francisco)",
+      "series": "Standing Liberty Quarter, Type 1 (1916–1917)",
+      "composition": "90% silver, 10% copper",
+      "rarity": "scarce",
+      "condition_estimate": "About Uncirculated to Choice Uncirculated (AU-55 to MS-63), possibly cleaned or lightly toned",
+      "value_low_usd": 300,
+      "value_high_usd": 650,
+      "confidence": "high",
+      "description": "The Standing Liberty Quarter was designed by Hermon MacNeil and first issued in 1916. The Type 1 design shows Liberty with her right breast exposed, standing in a gateway and holding a shield, with an eagle in flight on the reverse. In 1917 the design was modified mid-year to cover her breast and to rearrange the stars on the reverse; the 1917-S was struck in both Type 1 and Type 2 versions.",
+      "notable_features": [
+        "Date and S mint mark are clearly visible on the obverse (mint mark to the left of the date on the pedestal), confirming a San Francisco strike.",
+        "Type 1 features: exposed breast and the three stars below the eagle on the reverse, with the stars arranged in the Type 1 pattern.",
+        "Check the date for strength, as the 1917 date sat on a raised pedestal and could wear early; full head and shield rivet details add a premium.",
+        "Sharp shield, knee and head detail would support a 'Full Head' designation, which is worth considerably more."
+      ],
+      "value_notes": "Value depends heavily on grade and strike quality; high-grade Type 1 1917-S quarters with a Full Head designation can bring much more than the range given. An accurate grade needs an in-hand look, as cleaning or surface problems would lower the price."
+    }
+  },
+  {
+    "front": "indian_o.jpg",
+    "back": "indian_r.jpg",
+    "inCollection": true,
+    "hoursAgo": 50,
+    "result": {
+      "is_coin": true,
+      "name": "1860 Indian Head Cent (Copper-Nickel)",
+      "country": "United States",
+      "denomination": "One Cent (1¢)",
+      "year": "1860",
+      "mint_mark": "None (Philadelphia)",
+      "series": "Indian Head Cent (1859–1909), Copper-Nickel type (1859–1864)",
+      "composition": "88% copper, 12% nickel",
+      "rarity": "common",
+      "condition_estimate": "About Uncirculated (AU-55 to AU-58), with spotting and uneven toning",
+      "value_low_usd": 90,
+      "value_high_usd": 200,
+      "confidence": "high",
+      "description": "The Indian Head cent was designed by James B. Longacre, and the 1860 issue is the second year of the series. It uses the Copper-Nickel composition, which gave the coins a pale, yellowish look when new, and carries the new oak wreath and shield reverse introduced in 1860. All Indian Head cents from 1860 were struck at the Philadelphia Mint, so no mint mark appears.",
+      "notable_features": [
+        "1860 introduced the oak wreath with shield reverse, replacing the 1859 laurel wreath design",
+        "Check for the pointed bust variety, which is scarcer and worth a premium over the more common rounded bust",
+        "Green spots and darker toning patches on both sides may limit the grade and could be verified in hand",
+        "Sharp feather and hair detail with only light wear on the high points"
+      ],
+      "value_notes": "Value depends mostly on grade and surface quality; spotting, toning and any cleaning can lower the price compared with a cleaner example. If the bust is the pointed variety, or the coin grades higher in hand, the value could be above this range."
+    }
+  },
+  {
+    "front": "franklin_o.jpg",
+    "back": "franklin_r.jpg",
+    "inCollection": true,
+    "hoursAgo": 100,
+    "result": {
+      "is_coin": true,
+      "name": "1963-D Franklin Half Dollar",
+      "country": "United States",
+      "denomination": "Half Dollar (50¢)",
+      "year": "1963",
+      "mint_mark": "D (Denver)",
+      "series": "Franklin Half Dollar (1948–1963)",
+      "composition": "90% silver, 10% copper",
+      "rarity": "common",
+      "condition_estimate": "Mint State (approx. MS-63 to MS-64), with toning and some bag marks",
+      "value_low_usd": 28,
+      "value_high_usd": 50,
+      "confidence": "high",
+      "description": "The Franklin Half Dollar was designed by John R. Sinnock and struck from 1948 to 1963, featuring Benjamin Franklin on the obverse and the Liberty Bell on the reverse. The 1963-D was the last year of the series, and the Denver Mint produced a very large mintage, so the date is common in all grades. The Denver mint mark appears above the Liberty Bell, between the bell and the 'S' in STATES.",
+      "notable_features": [
+        "Mint mark 'D' sits above the bell, just below the rim lettering",
+        "Check the bell's lower lines for full bell lines (FBL) detail, which commands a premium",
+        "Blue and gold toning on the surfaces is attractive and can add some appeal",
+        "Minor scratches and contact marks in the fields limit the grade"
+      ],
+      "value_notes": "Value is driven mainly by the silver content (about 0.36 oz of pure silver) and by mint state condition. A 'Full Bell Lines' designation could push the price noticeably higher, so it is worth examining the bell's horizontal lines or having it graded."
+    }
+  },
+  {
+    "front": "mercury_o.jpg",
+    "back": "mercury_r.jpg",
+    "inCollection": true,
+    "hoursAgo": 130,
+    "result": {
+      "is_coin": true,
+      "name": "1943-D Mercury Dime",
+      "country": "United States",
+      "denomination": "Dime (10¢)",
+      "year": "1943",
+      "mint_mark": "D (Denver)",
+      "series": "Winged Liberty Head ('Mercury') Dime (1916–1945)",
+      "composition": "90% silver, 10% copper",
+      "rarity": "common",
+      "condition_estimate": "Mint State (approx. MS-65, with possible Full Bands)",
+      "value_low_usd": 18,
+      "value_high_usd": 45,
+      "confidence": "high",
+      "description": "The Winged Liberty Head dime, popularly called the Mercury dime, was designed by Adolph A. Weinman and struck from 1916 to 1945. Liberty wears a winged cap symbolizing freedom of thought, and the reverse shows a fasces with an olive branch, representing strength and peace. The Denver mint produced over 71 million dimes in 1943, so the date is plentiful in circulated grades.",
+      "notable_features": [
+        "Mint mark 'D' is visible on the reverse at lower left, beside the fasces base",
+        "Check the horizontal bands on the fasces for separation, since Full Bands (FB) strikes sell for a premium",
+        "Surfaces look bright and lustrous with little visible wear, consistent with an uncirculated coin",
+        "Look for any doubled-die or overdate varieties, though none are obvious here"
+      ],
+      "value_notes": "Circulated 1943-D dimes mostly trade near silver melt value (a few dollars), but uncirculated examples in MS-65 range carry a collector premium. A confirmed Full Bands designation or a professional high grade could push the price above this range."
+    }
+  },
+  {
+    "front": "barber_o.jpg",
+    "back": "barber_r.jpg",
+    "inCollection": true,
+    "hoursAgo": 160,
+    "result": {
+      "is_coin": true,
+      "name": "1914 Barber Dime",
+      "country": "United States",
+      "denomination": "Dime (10¢)",
+      "year": "1914",
+      "mint_mark": "None (Philadelphia)",
+      "series": "Barber Dime (1892–1916)",
+      "composition": "90% silver, 10% copper",
+      "rarity": "common",
+      "condition_estimate": "Mint State (approx. MS-62 to MS-64), shown in a third-party grading holder",
+      "value_low_usd": 90,
+      "value_high_usd": 160,
+      "confidence": "medium",
+      "description": "The Barber dime was designed by Charles E. Barber, Chief Engraver of the US Mint, and struck from 1892 to 1916. The obverse shows Liberty wearing a laurel wreath and Phrygian cap, and the reverse carries a wreath of wheat, corn and oak around 'ONE DIME'. The 1914 issue was struck at Philadelphia, Denver and San Francisco, and this example appears to be the Philadelphia issue.",
+      "notable_features": [
+        "No mint mark visible below the wreath bow on the reverse, which points to Philadelphia; check the holder label to confirm",
+        "Uncirculated surfaces with mottled gray toning and some light handling marks",
+        "1914-D and 1914-S are the other mints for this year, and are often priced differently",
+        "Third-party holder suggests the grade is already certified, so the label should be checked for the exact grade"
+      ],
+      "value_notes": "Value depends heavily on the exact Mint State grade, surface quality and toning, with sharper strikes and cleaner surfaces commanding more. The 1914 Philadelphia dime is one of the more available Barber dates, so uncirculated examples are affordable compared with key dates."
+    }
+  }
+]
