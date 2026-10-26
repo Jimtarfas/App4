@@ -12,7 +12,7 @@ settings:
     DEVELOPMENT_TEAM: ZUCC9R4PP4
     SWIFT_VERSION: "5.0"
     MARKETING_VERSION: "1.0"
-    CURRENT_PROJECT_VERSION: "1"
+    CURRENT_PROJECT_VERSION: "2"
 targets:
   CoinValues:
     type: application
@@ -51,11 +51,29 @@ targets:
         SUPPORTS_MACCATALYST: NO
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
         SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: NO
+  CoinValuesTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: CoinValuesTests
+      - path: CoinValues/Resources/Products.storekit
+        buildPhase: resources
+    dependencies:
+      - target: CoinValues
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        PRODUCT_BUNDLE_IDENTIFIER: com.coinvalues.identifier.tests
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/CoinValues.app/CoinValues
+        BUNDLE_LOADER: $(TEST_HOST)
 schemes:
   CoinValues:
     build:
       targets:
         CoinValues: all
+    test:
+      targets:
+        - CoinValuesTests
     run:
       config: Debug
       storeKitConfiguration: CoinValues/Resources/Products.storekit

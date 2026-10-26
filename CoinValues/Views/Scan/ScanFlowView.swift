@@ -165,6 +165,10 @@ struct ScanFlowView: View {
                 Button("Skip back side") { startIdentification() }
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(Theme.goldLight)
+            } else {
+                Button("No coin handy? Try a sample coin", action: useSampleCoin)
+                    .font(.subheadline.weight(.semibold))
+                    .foregroundStyle(Theme.goldLight)
             }
             HStack {
                 PhotosPicker(selection: $pickerItem, matching: .images) {
@@ -239,6 +243,14 @@ struct ScanFlowView: View {
         defer { pickerItem = nil }
         guard let data = try? await item.loadTransferable(type: Data.self), let image = UIImage(data: data) else { return }
         accept(ImageProcessing.prepareLibraryPhoto(image))
+    }
+
+    /// Identifies a bundled public-domain 1944-S Washington quarter, so the app can be tried without a coin.
+    private func useSampleCoin() {
+        guard let front = UIImage(named: "SampleFront"), let back = UIImage(named: "SampleBack") else { return }
+        frontImage = front.scaled(toMaxSide: ImageProcessing.uploadSize)
+        backImage = back.scaled(toMaxSide: ImageProcessing.uploadSize)
+        startIdentification()
     }
 
     private func accept(_ image: UIImage) {

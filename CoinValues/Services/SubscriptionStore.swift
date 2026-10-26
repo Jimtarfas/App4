@@ -19,8 +19,21 @@ final class SubscriptionStore {
     private(set) var trialEligible: [String: Bool] = [:]
 
     private var updatesTask: Task<Void, Never>?
+    #if DEBUG
+    /// Posted by the StoreKit tests after they switch to the local StoreKit configuration.
+    static let reloadForTestingNotification = Notification.Name("SubscriptionStore.reloadForTesting")
+    private var reloadObserver: NSObjectProtocol?
+    #endif
 
     init() {
+        #if DEBUG
+        reloadObserver = NotificationCenter.default.addObserver(forName: Self.reloadForTestingNotification, object: nil, queue: .main) { [weak self] _ in
+            Task { @MainActor in
+                await self?.refreshEntitlements()
+                await self?.loadProducts()
+            }
+        }
+        #endif
         updatesTask = Task { [weak self] in
             for await update in Transaction.updates {
                 if case .verified(let transaction) = update { await transaction.finish() }
@@ -59,7 +72,7 @@ final class SubscriptionStore {
         return trialEligible[product.id] ?? false
     }
 
-    enum PurchaseOutcome { case purchased, pending, cancelled }
+    enum PurchaseOutcome: Equatable { case purchased, pending, cancelled }
 
     func purchase(_ product: Product) async throws -> PurchaseOutcome {
         let result = try await product.purchase()

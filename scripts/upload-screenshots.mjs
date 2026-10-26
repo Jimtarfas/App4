@@ -3,10 +3,11 @@
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { asc } from "./asc.mjs";
 
 const APP_ID = "6826951196";
-const ROOT = new URL("..", import.meta.url).pathname;
+const ROOT = fileURLToPath(new URL("..", import.meta.url));
 const SETS = [
   { type: "APP_IPHONE_67", dir: "marketing/screenshots/en-US-6.9" }, // 6.9" slot (1320×2868)
   { type: "APP_IPHONE_65", dir: "marketing/screenshots/en-US-6.5" }, // 6.5" slot (1284×2778)
@@ -37,7 +38,7 @@ export async function uploadAsset(type, relationship, parentType, parentId, file
   return reservation.id;
 }
 
-if (import.meta.url === `file://${encodeURI(process.argv[1])}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   const version = (await must("GET", `/v1/apps/${APP_ID}/appStoreVersions`)).data.find((v) => v.attributes.versionString === "1.0");
   const localization = (await must("GET", `/v1/appStoreVersions/${version.id}/appStoreVersionLocalizations`)).data
     .find((l) => l.attributes.locale === "en-US");

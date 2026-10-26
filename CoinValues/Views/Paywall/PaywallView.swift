@@ -22,18 +22,31 @@ struct PaywallView: View {
         ZStack(alignment: .top) {
             Theme.heroGradient.ignoresSafeArea()
             ScrollView {
-                VStack(spacing: 22) {
+                VStack(spacing: 20) {
                     header
                     features
                     plans
-                    purchaseSection
-                    legal
+                    Text(renewalTerms)
+                        .font(.caption2)
+                        .foregroundStyle(.white.opacity(0.55))
+                        .multilineTextAlignment(.center)
                 }
                 .padding(.horizontal, 22)
-                .padding(.top, 56)
-                .padding(.bottom, 24)
+                .padding(.top, 52)
+                .padding(.bottom, 16)
             }
             .scrollIndicators(.hidden)
+            // The subscribe button, Restore, Terms and Privacy stay on screen on every device size.
+            .safeAreaInset(edge: .bottom) {
+                VStack(spacing: 12) {
+                    purchaseSection
+                    legalLinks
+                }
+                .padding(.horizontal, 22)
+                .padding(.top, 14)
+                .padding(.bottom, 6)
+                .background(Theme.navy.opacity(0.97).ignoresSafeArea(edges: .bottom))
+            }
 
             HStack {
                 Button {
@@ -64,7 +77,7 @@ struct PaywallView: View {
 
     private var header: some View {
         VStack(spacing: 14) {
-            CoinGlyph(symbol: "crown.fill", size: 96)
+            CoinGlyph(symbol: "crown.fill", size: 84)
             Text("Coin Values Pro")
                 .font(.largeTitle.weight(.bold))
             Text("Identify coins and track what your collection is worth.")
@@ -149,20 +162,14 @@ struct PaywallView: View {
         }
     }
 
-    private var legal: some View {
-        VStack(spacing: 14) {
-            Text(renewalTerms)
-                .font(.caption2)
-                .foregroundStyle(.white.opacity(0.55))
-                .multilineTextAlignment(.center)
-            HStack(spacing: 18) {
-                Button("Restore Purchases") { Task { await restore() } }
-                Button("Terms of Use") { openURL(Links.terms) }
-                Button("Privacy Policy") { openURL(Links.privacy) }
-            }
-            .font(.caption.weight(.semibold))
-            .foregroundStyle(.white.opacity(0.8))
+    private var legalLinks: some View {
+        HStack(spacing: 18) {
+            Button("Restore Purchases") { Task { await restore() } }
+            Button("Terms of Use") { openURL(Links.terms) }
+            Button("Privacy Policy") { openURL(Links.privacy) }
         }
+        .font(.caption.weight(.semibold))
+        .foregroundStyle(.white.opacity(0.8))
     }
 
     // MARK: - Copy
