@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01A46595FD49A2F07B11A1E1 /* CoinValuesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA110A9D1FB32682839772A /* CoinValuesApp.swift */; };
+		08AABC9CBF3E571C98FF8E5F /* IdentifyServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC7A3095BFB66825CDE669E /* IdentifyServiceTests.swift */; };
 		0A948F61123BA5069ED0EAB9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C977147D9265BC8E994ACB /* SettingsView.swift */; };
 		329BCB8990EDEFBEB4C4A5AA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D9B5F85971CF2231F97EC /* OnboardingView.swift */; };
 		3BFBD844B84592EED8022D8B /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD03DC0A2D23AEC0817C90A0 /* CollectionView.swift */; };
@@ -64,6 +65,7 @@
 		E172DDE90F3A050A0490499B /* ScanHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanHomeView.swift; sourceTree = "<group>"; };
 		E27313A151AC8A20967F241E /* CoinValues.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CoinValues.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E534E3D4ECE93F8CACA577 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		ECC7A3095BFB66825CDE669E /* IdentifyServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifyServiceTests.swift; sourceTree = "<group>"; };
 		FBD11A95036337B404B4CAB1 /* Products.storekit */ = {isa = PBXFileReference; path = Products.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -230,6 +232,7 @@
 		EED213D4048A15F78993D2EF /* CoinValuesTests */ = {
 			isa = PBXGroup;
 			children = (
+				ECC7A3095BFB66825CDE669E /* IdentifyServiceTests.swift */,
 				41A333119A4AF3C3F1EA7B45 /* StoreKitFlowTests.swift */,
 			);
 			path = CoinValuesTests;
@@ -361,6 +364,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08AABC9CBF3E571C98FF8E5F /* IdentifyServiceTests.swift in Sources */,
 				8824FEC0C78B3B8675C99BBE /* StoreKitFlowTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

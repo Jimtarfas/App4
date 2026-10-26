@@ -38,5 +38,10 @@ final class StoreKitFlowTests: XCTestCase {
         await store.refreshEntitlements()
         XCTAssertNotNil(store.activeTransactionJWS)
         XCTAssertEqual(store.activeProductID, SubscriptionStore.yearlyID)
+
+        // Optionally keep the subscribed app running so the scan flow can be tried by hand.
+        if let hold = ProcessInfo.processInfo.environment["HOLD_AFTER_PURCHASE_SECONDS"].flatMap(Double.init) {
+            try await Task.sleep(for: .seconds(hold))
+        }
     }
 }
