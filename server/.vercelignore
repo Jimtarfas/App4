@@ -1,8 +1,5 @@
-*
-!api/**
-!lib/**
-!certs/**
-!package.json
-!package-lock.json
-!tsconfig.json
-!vercel.json
+node_modules
+.vercel
+*.tmp.ts
+scratch-*.ts
+.env*
